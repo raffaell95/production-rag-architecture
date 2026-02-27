@@ -22,7 +22,7 @@ O exemplo aqui considera um **LLM especializado em atendimento de clientes de um
 ---
 
 ## Estrutura do Projeto
-<img width="1024" height="1536" alt="ChatGPT Image 27 de fev  de 2026, 01_20_54" src="https://github.com/user-attachments/assets/b6c2c0e1-97d4-4f62-9b52-5b2fd43875c3" />
+<img width="400" height="1536" alt="ChatGPT Image 27 de fev  de 2026, 01_20_54" src="https://github.com/user-attachments/assets/b6c2c0e1-97d4-4f62-9b52-5b2fd43875c3" />
 
 
 
@@ -52,4 +52,5 @@ Ou
 `python -m app.main`
 Ou
 `uv run -m app.main`
+
 
