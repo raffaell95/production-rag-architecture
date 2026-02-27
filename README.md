@@ -36,7 +36,7 @@ REDIS_DB=0
 HISTORY_TTL=86400  
 GROQ_API_KEY=<sua_chave_aqui>
 
-## Variáveis de Ambiente
+## Como Rodar o Projeto
 Backend (FastAPI + Redis)  
 
 - Instale dependências:
@@ -51,6 +51,7 @@ Ou
 `python -m app.main`
 Ou
 `uv run -m app.main`
+
 
 
 
