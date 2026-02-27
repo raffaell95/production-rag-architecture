@@ -21,7 +21,7 @@ O exemplo aqui considera um **LLM especializado em atendimento de clientes de um
 
 ---
 
-## Estrutura do Projeto
+## Estrutura do Projeto  
 <img width="400" height="1536" alt="ChatGPT Image 27 de fev  de 2026, 01_20_54" src="https://github.com/user-attachments/assets/b6c2c0e1-97d4-4f62-9b52-5b2fd43875c3" />
 
 
@@ -30,15 +30,14 @@ O exemplo aqui considera um **LLM especializado em atendimento de clientes de um
 
 Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
 
-- Redis
-REDIS_HOST=localhost
-REDIS_PORT=6379
-REDIS_DB=0
-HISTORY_TTL=86400
+REDIS_HOST=localhost  
+REDIS_PORT=6379  
+REDIS_DB=0  
+HISTORY_TTL=86400  
 GROQ_API_KEY=<sua_chave_aqui>
 
 ## Variáveis de Ambiente
-Backend (FastAPI + Redis)
+Backend (FastAPI + Redis)  
 
 - Instale dependências:
 `pip install -r requirements.txt`
@@ -52,5 +51,6 @@ Ou
 `python -m app.main`
 Ou
 `uv run -m app.main`
+
 
 
