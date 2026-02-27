@@ -22,22 +22,8 @@ O exemplo aqui considera um **LLM especializado em atendimento de clientes de um
 ---
 
 ## Estrutura do Projeto
-├── app/
-│   ├── api/         # Controllers / rotas da API
-│   ├── chat/        # ChatService para gerenciamento de histórico e interação com RAG
-│   ├── core/        # Configurações, cliente Redis, variáveis de ambiente
-│   ├── embeddings/  # Funções para criação e persistência de embeddings
-│   ├── vectorstore/ # Armazenamento, indexação e consulta de embeddings
-│   ├── llm/         # Factory para criação do LLM
-│   ├── loaders/     # Loaders de documentos (PDF, texto, etc.) para indexação
-│   ├── rag/         # RAGBuilder, Retriever e serviços de integração
-|   ├── utils/       # Utilitários gerais (funções de logging, parsing, helpers)
-│   └── main.py      # Entry point da API FastAPI
-│
-├── documents/       # PDFs ou documentos usados pelo RAG
-├── storage/         # Persistência de dados, arquivos processados, backups do vectorstore
-├── .env             # Variáveis de ambiente (não commitar)
-└── requirements.txt # Dependências Python
+<img width="1024" height="1536" alt="ChatGPT Image 27 de fev  de 2026, 01_20_54" src="https://github.com/user-attachments/assets/b6c2c0e1-97d4-4f62-9b52-5b2fd43875c3" />
+
 
 
 ## Variáveis de Ambiente
@@ -66,3 +52,4 @@ Ou
 `python -m app.main`
 Ou
 `uv run -m app.main`
+
