@@ -11,7 +11,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const res = await fetch("http://localhost:8000/api/chat", {
+    const res = await fetch(`${process.env.RAG_API_BASE_URL}/api/chat`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
