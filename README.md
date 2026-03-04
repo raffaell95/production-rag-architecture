@@ -39,7 +39,7 @@ REDIS_HOST=localhost
 REDIS_PORT=6379  
 REDIS_DB=0  
 HISTORY_TTL=86400
-RAG_API_BASE_URL=http://localhost:8000
+RAG_API_BASE_URL=http://localhost:8000  
 GROQ_API_KEY=<sua_chave_aqui>
 
 ## Como Rodar o Projeto
@@ -62,6 +62,7 @@ Ou
   `cd chat-client`
    `npm install`
   `npm run dev`
+
 
 
 
