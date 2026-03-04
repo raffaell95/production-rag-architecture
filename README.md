@@ -38,9 +38,11 @@ Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
 REDIS_HOST=localhost  
 REDIS_PORT=6379  
 REDIS_DB=0  
-HISTORY_TTL=86400
-RAG_API_BASE_URL=http://localhost:8000
+HISTORY_TTL=86400 
 GROQ_API_KEY=<sua_chave_aqui>
+
+Crie outro arquivo `.env` dentro e `client-chat` e adiccione a seguinte variavel:  
+RAG_API_BASE_URL=http://localhost:8000  
 
 ## Como Rodar o Projeto
 Backend (FastAPI + Redis)  
@@ -62,6 +64,8 @@ Ou
   `cd chat-client`
    `npm install`
   `npm run dev`
+
+
 
 
 
